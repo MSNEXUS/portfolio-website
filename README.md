@@ -21,7 +21,7 @@ The visual identity uses a dark black-and-antique-gold palette with Art Deco-ins
 - **ACCA & Finance** — professional learning and finance-related interests
 - **Projects** — selected concepts and practical work
 - **Experience & Simulations** — virtual experience programmes and job simulations
-- **Certifications** — courses, workshops, and certificates, including Tally Essential (Entri) and ACCA EPSM
+- **Certifications** — Forage simulations, ACCA Foundations in Professionalism (FIP), One Million Prompters, Technovalley AI Career Orientation, Tally Essential (Entri), Excel and Power BI workshops
 - **Contact** — professional enquiry form and contact links
 
 ## Features
