@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06111b"/><stop offset="1" stop-color="#102b3d"/></linearGradient><linearGradient id="g"><stop stop-color="#9b7844"/><stop offset=".5" stop-color="#f0d9a8"/><stop offset="1" stop-color="#b48a50"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#bg)"/><circle cx="1050" cy="80" r="330" fill="none" stroke="#d6bd86" stroke-opacity=".18" stroke-width="2"/><circle cx="1050" cy="80" r="260" fill="none" stroke="#d6bd86" stroke-opacity=".1" stroke-width="2"/>
+<path d="M0 520 Q360 440 760 545 T1200 490" fill="none" stroke="url(#g)" stroke-width="3" opacity=".7"/>
+<text x="86" y="170" font-family="Georgia,serif" font-size="86" fill="url(#g)">MS</text><text x="86" y="240" font-family="Arial,sans-serif" font-size="26" letter-spacing="8" fill="#f5efdf">MOHAMMED MIRSHAN</text>
+<text x="86" y="292" font-family="Arial,sans-serif" font-size="17" letter-spacing="4" fill="#d6bd86">ACCA STUDENT  |  B.COM (FINANCE)</text>
+<text x="86" y="390" font-family="Georgia,serif" font-size="54" fill="#f3efe6">Finance × Technology</text><text x="86" y="455" font-family="Georgia,serif" font-size="54" fill="#d6bd86">× Business Systems</text>
+<text x="86" y="535" font-family="Arial,sans-serif" font-size="19" fill="#bdc9cf">Accounting · Taxation · Audit · Reporting · Analytics</text></svg>
