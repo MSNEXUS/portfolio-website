@@ -34,7 +34,7 @@
     <a class="brand" href="#home" aria-label="Mohammed Mirshan home"><span class="brand-mark">MS</span><span class="brand-name">MOHAMMED MIRSHAN<small>FINANCE × TECHNOLOGY</small></span></a>
     <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">MENU</button>
     <nav class="nav-links" id="primary-navigation" aria-label="Primary navigation">
-      <a href="#capabilities">Capabilities</a><a href="#journey">Journey</a><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#credentials">Credentials</a><a href="#about">About</a><a class="nav-cta" href="#contact">Let's connect ↗</a>
+      <a href="#capabilities">Capabilities</a><a href="#journey">Journey</a><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#credentials">Credentials</a><a href="#about">About</a><a href="#finance-lab">Finance Lab</a><a class="nav-cta" href="#contact">Let's connect ↗</a>
     </nav>
   </div>
 </header>
@@ -170,6 +170,34 @@
    <article class="skill-panel reveal"><h3>Business Systems & Operations</h3><div class="skill-tags"><span>Process Documentation</span><span>Business Operations</span><span>Project Coordination</span><span>Project Monitoring</span><span>Workflow Design</span><span>Problem Solving</span><span>Communication</span><span>Teamwork</span></div></article>
    <article class="skill-panel reveal delay-1"><h3>Languages</h3><div class="languages"><span class="language"><b>English</b> · Fluent</span><span class="language"><b>Malayalam</b> · Native</span><span class="language"><b>Hindi</b> · Intermediate</span><span class="language"><b>Arabic</b> · Basic</span><span class="language"><b>Tamil</b> · Conversational</span></div></article>
   </div>
+ </div>
+</section>
+
+<section class="section alt" id="finance-lab">
+ <div class="wrap">
+  <div class="section-head reveal"><div><div class="eyebrow">08 / Interactive finance lab</div><h2>Explore the numbers.<br><span class="gold">Change the assumptions.</span></h2></div><p class="section-intro">A small educational toolkit demonstrating core financial and management-accounting calculations. Try changing the illustrative inputs and see the result update instantly.</p></div>
+  <div class="lab-grid">
+   <article class="lab-card reveal">
+    <div class="lab-index">01 / COST-VOLUME-PROFIT</div><h3>Break-even analysis</h3><p class="lab-copy">Estimate the units required to cover fixed costs at a given selling price and variable cost.</p>
+    <label for="be-fixed">Fixed costs (₹)</label><input id="be-fixed" type="number" min="0" step="1000" value="500000">
+    <label for="be-price">Selling price per unit (₹)</label><input id="be-price" type="number" min="0" step="10" value="1000">
+    <label for="be-variable">Variable cost per unit (₹)</label><input id="be-variable" type="number" min="0" step="10" value="600">
+    <div class="lab-result"><small>Break-even volume</small><output id="be-output">1,250 units</output><span id="be-note">Fixed costs ÷ contribution per unit</span></div>
+   </article>
+   <article class="lab-card reveal delay-1">
+    <div class="lab-index">02 / PROFITABILITY</div><h3>Gross profit margin</h3><p class="lab-copy">See the percentage of revenue remaining after cost of goods sold.</p>
+    <label for="gm-revenue">Revenue (₹)</label><input id="gm-revenue" type="number" min="0" step="1000" value="500000">
+    <label for="gm-cogs">Cost of goods sold (₹)</label><input id="gm-cogs" type="number" min="0" step="1000" value="325000">
+    <div class="lab-result"><small>Gross profit margin</small><output id="gm-output">35.0%</output><span id="gm-note">Gross profit ÷ revenue × 100</span></div>
+   </article>
+   <article class="lab-card reveal delay-2">
+    <div class="lab-index">03 / LIQUIDITY</div><h3>Current ratio</h3><p class="lab-copy">Compare current assets with current liabilities as a simple liquidity indicator.</p>
+    <label for="cr-assets">Current assets (₹)</label><input id="cr-assets" type="number" min="0" step="1000" value="250000">
+    <label for="cr-liabilities">Current liabilities (₹)</label><input id="cr-liabilities" type="number" min="0" step="1000" value="150000">
+    <div class="lab-result"><small>Current ratio</small><output id="cr-output">1.67×</output><span id="cr-note">Current assets ÷ current liabilities</span></div>
+   </article>
+  </div>
+  <p class="lab-disclaimer">Illustrative educational calculations only. Values are not financial advice, audited figures or a tax computation. Inputs are processed in your browser and are not submitted to the enquiry form.</p>
  </div>
 </section>
 
