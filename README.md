@@ -1,80 +1,63 @@
-# Mohammed Mirshan — Personal Portfolio
+# Mohammed Mirshan — Portfolio V2.0
 
-A personal portfolio website presenting my background, skills, learning journey, projects, and professional interests.
+A responsive, immersive portfolio showcasing my learning journey and selected work across finance, accounting, audit, taxation, analytics and business systems.
 
 **Live website:** https://msnexus.github.io/portfolio-website/  
-**LinkedIn:** https://www.linkedin.com/in/mohammed-mirshan-66712b28b  
-**Enquiries:** https://docs.google.com/forms/d/e/1FAIpQLSfS3Sc7nzgz2rdyeO0SAafG2r64-M5QduTtHFnaivJwnDWC_g/viewform?usp=dialog
+**LinkedIn:** https://www.linkedin.com/in/mohammed-mirshan-66712b28b/  
+**Professional enquiries:** https://docs.google.com/forms/d/e/1FAIpQLSfS3Sc7nzgz2rdyeO0SAafG2r64-M5QduTtHFnaivJwnDWC_g/viewform?usp=dialog
 
----
+## Portfolio structure
 
-## About the project
+- **Home** — professional introduction, education and clear routes into the work.
+- **Capabilities** — Finance & Accounting, Audit & Assurance, Taxation & Valuation, Data & Analytics, and Business Systems.
+- **Journey** — academic milestones, ACCA progress, professional learning and independent projects.
+- **Applied learning** — KPMG, PwC, ACCA–CIMB and other virtual job simulations, explicitly labelled as simulations.
+- **Selected work** — Project COMS, ProSite, Audit & Assurance case studies, Taxation & Valuation learning, Studley AI and YolAster.
+- **Credentials** — academic details, ACCA EPSM and FIP, professional simulations, workshops and technical learning.
+- **Skills & tools** — curated skills grouped by professional area.
+- **Finance Lab** — browser-only educational calculators for break-even analysis, gross profit margin and current ratio.
+- **Contact** — professional contact details and the existing Google Forms enquiry workflow.
+- **Privacy** — explains how enquiry submissions and external links are handled.
 
-This website is designed as a central place to explore my professional profile and selected work across finance, audit, business operations, technology, and digital projects.
+## Case-study pages
 
-The visual identity uses a dark black-and-antique-gold palette with Art Deco-inspired styling, structured layouts, and responsive presentation.
+- [Project COMS](projects/coms.html) — construction office management system concept.
+- [ProSite](projects/prosite.html) — construction site tracking product concept.
+- [Audit & Assurance](projects/audit-simulations.html) — KPMG and PwC virtual learning case studies.
+- [Taxation & Valuation](projects/taxation-valuation.html) — Ryan LLC property tax consulting simulation.
+- [Studley AI](projects/studley-ai.html) — independent AI study-tool learning prototype.
+- [YolAster](projects/yolaster.html) — travel brand and business concept.
 
-## Website sections
+## Design and technology
 
-- **About** — professional introduction and background
-- **Skills** — technical, software, and interpersonal capabilities
-- **ACCA & Finance** — professional learning and finance-related interests
-- **Projects** — selected concepts and practical work
-- **Experience & Simulations** — virtual experience programmes and job simulations
-- **Certifications** — Forage simulations, ACCA Ethics and Professional Skills Module (EPSM), ACCA Foundations in Professionalism (FIP), One Million Prompters, Technovalley AI Career Orientation, Tally Essential (Entri), Excel and Power BI workshops
-- **Contact** — professional enquiry form and contact links
+- HTML5, CSS3 and vanilla JavaScript.
+- Responsive layout and mobile navigation.
+- Dark navy and champagne-gold visual identity.
+- Playfair Display and DM Sans typography.
+- Scroll reveals, project filters and accessible interaction states.
+- Reduced-motion support and keyboard focus styling.
+- Open Graph metadata, Person structured data, robots.txt and sitemap.xml.
+- GitHub Pages static hosting.
 
-## Features
+No package installation or build process is required. Open `index.html` locally to preview the site.
 
-- Responsive layout for desktop and mobile screens
-- Custom black-and-antique-gold visual identity
-- Art Deco-inspired design details
-- Dedicated professional enquiry call-to-action
-- Google Forms enquiry workflow
-- Google Sheets response collection
-- Google Apps Script email notifications for new enquiries
+## Enquiry workflow
 
-## Design system
+The contact call-to-action continues to use the existing Google Form. Form responses are collected in its connected Google Sheet, and the existing Apps Script notification workflow remains separate from the public portfolio code.
 
-| Element | Direction |
-| --- | --- |
-| Primary background | Near-black |
-| Accent palette | Antique gold and bronze |
-| Typography | Serif display paired with clean sans-serif text |
-| Visual language | Art Deco-inspired, geometric, minimal, and high contrast |
-
-## Tech stack
-
-- HTML5
-- CSS3
-- JavaScript
-- Google Forms
-- Google Sheets
-- Google Apps Script
-- GitHub Pages
-
-## Run locally
-
-1. Clone or download this repository.
-2. Open `index.html` in a web browser.
-
-No build step or package installation is required for the static portfolio.
+The private certification repository is not linked or exposed. The public portfolio displays selected credential names and descriptions; original certificate PDFs remain private.
 
 ## Deployment
 
-This repository is configured for GitHub Pages publishing from the `main` branch and the repository root (`/`).
+The site is published from the `main` branch at the repository root:
 
-Repository: https://github.com/MSNEXUS/portfolio-website  
-Published URL: https://msnexus.github.io/portfolio-website/
+https://msnexus.github.io/portfolio-website/
 
-After pushing changes to `main`, GitHub Pages will publish the updated static site once its deployment workflow completes.
+The V1 source was preserved on the Git branch `backup/portfolio-v1-2026-11-27`.
 
 ## Contact
 
-For professional opportunities, collaborations, or project enquiries, please use the [Professional Enquiry Form](https://docs.google.com/forms/d/e/1FAIpQLSfS3Sc7nzgz2rdyeO0SAafG2r64-M5QduTtHFnaivJwnDWC_g/viewform?usp=dialog).
-
-You can also connect with me on [LinkedIn](https://www.linkedin.com/in/mohammed-mirshan-66712b28b).
-
----
+- Email: mirshan.m@outlook.com
+- LinkedIn: https://www.linkedin.com/in/mohammed-mirshan-66712b28b/
 
 © Mohammed Mirshan. All rights reserved.
